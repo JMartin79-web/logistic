@@ -1,0 +1,37 @@
+.create-container{
+    @include container;
+    @include d-column-center;
+    @include padding10;
+    min-height: 100vh;
+    .create-back-container{
+        .create-back{ @include button-back; }
+        @include padding5;
+        @include div-width;
+        margin: 0;
+
+    }
+
+    .create-h1{ text-align: center; }
+
+    .create-form{
+        @include div-width;
+        min-height: 100%;
+
+
+
+        .create-section{
+            background-color: $verde;
+            @include padding15;
+            @include vertical-margin15;
+            border-radius: 20px;
+
+            .create-input{
+                all: unset;
+                background-color: $blanco;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+        }
+    }
+
+}
