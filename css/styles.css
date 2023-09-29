@@ -115,18 +115,48 @@ a, p, h1, h2, h3, h4 {
   max-width: 1080px;
   margin: auto;
   min-height: 100%;
+  /* DIFERENTES COLORES */
 }
-.create-container .create-form .create-section {
+.create-container .create-form .form-section {
   background-color: #d6ead8;
   padding: 15px;
   margin: 15px 0px;
   border-radius: 20px;
+  /* inputs normales*/
 }
-.create-container .create-form .create-section .create-input {
+.create-container .create-form .form-section h3 {
+  margin: 10px 0px;
+}
+.create-container .create-form .form-section .create-input {
   all: unset;
   background-color: #FFFBFA;
+  margin: 10px 0px;
   padding: 5px 10px;
   border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  width: -webkit-fill-available;
+  max-width: 95%;
+}
+.create-container .create-form .form-section-date {
+  background-color: #E8E8E8;
+}
+.create-container .create-form .form-section-aud {
+  background-color: #E4CEED;
+}
+.create-container .create-form .form-section-plat {
+  background-color: #ffe8c0;
+}
+.create-container .create-form .form-section-mic .mics {
+  display: inline-flex;
+  width: 100%;
+  max-width: 300px;
+}
+.create-container .create-form .form-section-mic3 {
+  background-color: #97cfec;
+}
+.create-container .create-form .form-section-mic4 {
+  background-color: #FC9A9A;
 }
 
 .register-container {
